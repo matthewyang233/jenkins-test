@@ -1,11 +1,19 @@
 pipeline {
     agent any
+<<<<<<< HEAD
 
     tools {
         maven 'localMaven'
     }
+=======
+    
+    tools {
+        maven 'localMaven'
+    }
+    
+>>>>>>> 06e1f3ba49fd451c205e60f8c31c0cbbeeb6fe6c
     stages {
-        stage('Init') {
+        stage('Build') {
             steps {
                 sh 'mvn clean package'
             }
@@ -17,7 +25,11 @@ pipeline {
                 }
             }
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 06e1f3ba49fd451c205e60f8c31c0cbbeeb6fe6c
         stage ('Deploy to Staging') {
             steps {
                 build job: 'deploy-to-staging'
@@ -30,14 +42,16 @@ pipeline {
                     input message: 'Approve PRODUCTION Deployment?'
                 }
 
-                post {
-                    success {
-                        echo 'Code deployed to Production'
-                    }
+                build job: 'deploy-to-prod'
+            }
+            
+            post {
+                success {
+                    echo 'Code deployed to Production'
+                }
 
-                    failure {
-                        echo 'Deployment failed'
-                    }
+                failure {
+                    echo 'Deployment failed'
                 }
             }
         }
