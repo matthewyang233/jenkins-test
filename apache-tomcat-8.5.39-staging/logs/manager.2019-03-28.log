@@ -1,0 +1,62 @@
+28-Mar-2019 14:11:29.691 INFO [http-nio-8090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+28-Mar-2019 14:11:29.691 INFO [http-nio-8090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+28-Mar-2019 14:11:29.697 INFO [http-nio-8090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:11:29.746 INFO [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 14:11:29.747 INFO [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war
+28-Mar-2019 14:15:37.531 INFO [http-nio-8090-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:15:37.534 INFO [http-nio-8090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:15:37.535 INFO [http-nio-8090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 14:15:38.068 INFO [http-nio-8090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 14:15:38.068 INFO [http-nio-8090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war
+28-Mar-2019 14:15:52.743 INFO [http-nio-8090-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:15:52.745 INFO [http-nio-8090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:15:52.746 INFO [http-nio-8090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 14:15:53.265 INFO [http-nio-8090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 14:15:53.265 INFO [http-nio-8090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war
+28-Mar-2019 14:20:21.296 INFO [http-nio-8090-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:20:21.298 INFO [http-nio-8090-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:20:21.299 INFO [http-nio-8090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 14:20:21.812 INFO [http-nio-8090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 14:20:21.812 INFO [http-nio-8090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war
+28-Mar-2019 14:51:25.787 INFO [http-nio-8090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+28-Mar-2019 14:51:25.787 INFO [http-nio-8090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+28-Mar-2019 14:51:25.788 INFO [http-nio-8090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:51:25.791 INFO [http-nio-8090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:51:25.792 INFO [http-nio-8090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 14:51:26.306 INFO [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 14:51:26.306 INFO [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war
+28-Mar-2019 14:54:57.087 INFO [http-nio-8090-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:54:57.089 INFO [http-nio-8090-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:54:57.091 INFO [http-nio-8090-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 14:54:57.604 INFO [http-nio-8090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 14:54:57.604 INFO [http-nio-8090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war
+28-Mar-2019 14:56:09.645 INFO [http-nio-8090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:56:09.647 INFO [http-nio-8090-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 14:56:09.649 INFO [http-nio-8090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 14:56:10.163 INFO [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 14:56:10.163 INFO [http-nio-8090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war
+28-Mar-2019 23:10:06.411 INFO [http-nio-8090-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:10:06.414 INFO [http-nio-8090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:10:06.416 INFO [http-nio-8090-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 23:10:06.935 INFO [http-nio-8090-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 23:10:06.935 INFO [http-nio-8090-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war
+28-Mar-2019 23:21:09.470 INFO [http-nio-8090-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:21:09.472 INFO [http-nio-8090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:21:09.474 INFO [http-nio-8090-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 23:21:09.988 INFO [http-nio-8090-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 23:21:09.988 INFO [http-nio-8090-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war
+28-Mar-2019 23:39:06.844 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:39:06.846 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:39:06.847 INFO [http-nio-8090-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 23:39:07.360 INFO [http-nio-8090-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 23:39:07.361 INFO [http-nio-8090-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war
+28-Mar-2019 23:44:30.905 INFO [http-nio-8090-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:44:30.907 INFO [http-nio-8090-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:44:30.908 INFO [http-nio-8090-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 23:44:31.423 INFO [http-nio-8090-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 23:44:31.423 INFO [http-nio-8090-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war
+28-Mar-2019 23:45:06.356 INFO [http-nio-8090-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:45:06.358 INFO [http-nio-8090-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+28-Mar-2019 23:45:06.360 INFO [http-nio-8090-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+28-Mar-2019 23:45:06.874 INFO [http-nio-8090-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+28-Mar-2019 23:45:06.874 INFO [http-nio-8090-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war

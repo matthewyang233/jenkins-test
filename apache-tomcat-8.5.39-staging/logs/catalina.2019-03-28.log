@@ -1,0 +1,612 @@
+28-Mar-2019 13:58:17.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+28-Mar-2019 13:58:17.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+28-Mar-2019 13:58:17.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+28-Mar-2019 13:58:17.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Mar-2019 13:58:17.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.2
+28-Mar-2019 13:58:17.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Mar-2019 13:58:17.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Mar-2019 13:58:17.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Mar-2019 13:58:17.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2019 13:58:17.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39
+28-Mar-2019 13:58:17.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39
+28-Mar-2019 13:58:17.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/conf/logging.properties
+28-Mar-2019 13:58:17.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2019 13:58:17.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2019 13:58:17.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2019 13:58:17.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2019 13:58:17.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2019 13:58:17.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39
+28-Mar-2019 13:58:17.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39
+28-Mar-2019 13:58:17.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/temp
+28-Mar-2019 13:58:17.647 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/can/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Mar-2019 13:58:17.787 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 13:58:17.812 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 13:58:17.823 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 13:58:17.824 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 13:58:17.824 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 599 ms
+28-Mar-2019 13:58:17.848 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2019 13:58:17.849 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+28-Mar-2019 13:58:17.858 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/docs]
+28-Mar-2019 13:58:18.163 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/docs] has finished in [305] ms
+28-Mar-2019 13:58:18.163 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/manager]
+28-Mar-2019 13:58:18.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/manager] has finished in [29] ms
+28-Mar-2019 13:58:18.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/examples]
+28-Mar-2019 13:58:18.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/examples] has finished in [280] ms
+28-Mar-2019 13:58:18.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/ROOT]
+28-Mar-2019 13:58:18.487 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/ROOT] has finished in [14] ms
+28-Mar-2019 13:58:18.487 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/host-manager]
+28-Mar-2019 13:58:18.503 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/host-manager] has finished in [15] ms
+28-Mar-2019 13:58:18.505 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 13:58:18.516 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 13:58:18.518 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 693 ms
+28-Mar-2019 14:02:02.403 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Mar-2019 14:02:02.404 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:02:02.413 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:02:02.421 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2019 14:02:02.438 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:02:02.441 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:02:02.441 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:02:02.442 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:02:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+28-Mar-2019 14:02:16.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+28-Mar-2019 14:02:16.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+28-Mar-2019 14:02:16.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Mar-2019 14:02:16.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.2
+28-Mar-2019 14:02:16.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Mar-2019 14:02:16.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Mar-2019 14:02:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Mar-2019 14:02:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2019 14:02:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39
+28-Mar-2019 14:02:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39
+28-Mar-2019 14:02:16.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/conf/logging.properties
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/temp
+28-Mar-2019 14:02:16.626 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/can/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Mar-2019 14:02:16.738 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:02:16.765 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:02:16.774 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:02:16.775 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:02:16.775 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 482 ms
+28-Mar-2019 14:02:16.795 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2019 14:02:16.795 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+28-Mar-2019 14:02:16.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/docs]
+28-Mar-2019 14:02:17.040 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/docs] has finished in [239] ms
+28-Mar-2019 14:02:17.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/manager]
+28-Mar-2019 14:02:17.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/manager] has finished in [26] ms
+28-Mar-2019 14:02:17.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/examples]
+28-Mar-2019 14:02:17.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/examples] has finished in [251] ms
+28-Mar-2019 14:02:17.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/ROOT]
+28-Mar-2019 14:02:17.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/ROOT] has finished in [14] ms
+28-Mar-2019 14:02:17.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/host-manager]
+28-Mar-2019 14:02:17.347 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/host-manager] has finished in [15] ms
+28-Mar-2019 14:02:17.349 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:02:17.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:02:17.357 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 581 ms
+28-Mar-2019 14:11:29.750 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war]
+28-Mar-2019 14:11:29.784 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war] has finished in [33] ms
+28-Mar-2019 14:15:38.057 INFO [http-nio-8090-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 14:15:38.069 INFO [http-nio-8090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war]
+28-Mar-2019 14:15:38.099 INFO [http-nio-8090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war] has finished in [30] ms
+28-Mar-2019 14:15:53.255 INFO [http-nio-8090-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 14:15:53.266 INFO [http-nio-8090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war]
+28-Mar-2019 14:15:53.286 INFO [http-nio-8090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war] has finished in [20] ms
+28-Mar-2019 14:20:21.808 INFO [http-nio-8090-exec-16] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 14:20:21.813 INFO [http-nio-8090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war]
+28-Mar-2019 14:20:21.831 INFO [http-nio-8090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39/webapps/webapp.war] has finished in [18] ms
+28-Mar-2019 14:22:33.128 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Mar-2019 14:22:33.128 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:22:33.139 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:22:33.146 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2019 14:22:33.162 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:22:33.165 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:22:33.166 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:22:33.167 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:27:59.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.2
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:27:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:27:59.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/conf/logging.properties
+28-Mar-2019 14:27:59.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2019 14:27:59.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2019 14:27:59.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2019 14:27:59.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2019 14:27:59.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2019 14:27:59.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:27:59.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:27:59.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/temp
+28-Mar-2019 14:27:59.522 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/can/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Mar-2019 14:27:59.628 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:27:59.651 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:27:59.662 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:27:59.664 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1105)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+28-Mar-2019 14:27:59.665 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 479 ms
+28-Mar-2019 14:27:59.685 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2019 14:27:59.685 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+28-Mar-2019 14:27:59.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:27:59.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [244] ms
+28-Mar-2019 14:27:59.946 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs]
+28-Mar-2019 14:27:59.963 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs] has finished in [17] ms
+28-Mar-2019 14:27:59.963 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager]
+28-Mar-2019 14:27:59.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager] has finished in [26] ms
+28-Mar-2019 14:27:59.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples]
+28-Mar-2019 14:28:00.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples] has finished in [296] ms
+28-Mar-2019 14:28:00.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT]
+28-Mar-2019 14:28:00.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT] has finished in [13] ms
+28-Mar-2019 14:28:00.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager]
+28-Mar-2019 14:28:00.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager] has finished in [15] ms
+28-Mar-2019 14:28:00.315 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:28:00.321 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 655 ms
+28-Mar-2019 14:28:00.327 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+28-Mar-2019 14:28:00.328 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:28:00.339 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:28:00.340 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2019 14:28:00.356 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:28:00.363 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:28:00.364 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:28:00.364 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:35:27.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.2
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2019 14:35:27.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:35:27.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:35:27.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/conf/logging.properties
+28-Mar-2019 14:35:27.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2019 14:35:27.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2019 14:35:27.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2019 14:35:27.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2019 14:35:27.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2019 14:35:27.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:35:27.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:35:27.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/temp
+28-Mar-2019 14:35:27.257 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/can/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Mar-2019 14:35:27.364 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:35:27.388 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:35:27.399 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:35:27.401 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1105)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+28-Mar-2019 14:35:27.402 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 515 ms
+28-Mar-2019 14:35:27.424 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2019 14:35:27.425 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+28-Mar-2019 14:35:27.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:35:27.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [286] ms
+28-Mar-2019 14:35:27.734 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs]
+28-Mar-2019 14:35:27.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs] has finished in [15] ms
+28-Mar-2019 14:35:27.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager]
+28-Mar-2019 14:35:27.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager] has finished in [28] ms
+28-Mar-2019 14:35:27.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples]
+28-Mar-2019 14:35:28.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples] has finished in [253] ms
+28-Mar-2019 14:35:28.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT]
+28-Mar-2019 14:35:28.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT] has finished in [11] ms
+28-Mar-2019 14:35:28.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager]
+28-Mar-2019 14:35:28.057 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager] has finished in [15] ms
+28-Mar-2019 14:35:28.060 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:35:28.068 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 665 ms
+28-Mar-2019 14:35:28.073 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+28-Mar-2019 14:35:28.074 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:35:28.086 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:35:28.086 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2019 14:35:28.101 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:35:28.106 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:35:28.107 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:35:28.107 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:38:50.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.2
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:38:50.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:38:50.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/conf/logging.properties
+28-Mar-2019 14:38:50.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2019 14:38:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2019 14:38:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2019 14:38:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2019 14:38:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2019 14:38:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:38:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:38:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/temp
+28-Mar-2019 14:38:50.426 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/can/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Mar-2019 14:38:50.534 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:38:50.561 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:38:50.573 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:38:50.574 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:38:50.574 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 543 ms
+28-Mar-2019 14:38:50.596 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2019 14:38:50.596 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+28-Mar-2019 14:38:50.611 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:38:50.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [240] ms
+28-Mar-2019 14:38:50.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs]
+28-Mar-2019 14:38:50.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs] has finished in [15] ms
+28-Mar-2019 14:38:50.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager]
+28-Mar-2019 14:38:50.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager] has finished in [27] ms
+28-Mar-2019 14:38:50.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples]
+28-Mar-2019 14:38:51.130 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples] has finished in [236] ms
+28-Mar-2019 14:38:51.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT]
+28-Mar-2019 14:38:51.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT] has finished in [12] ms
+28-Mar-2019 14:38:51.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager]
+28-Mar-2019 14:38:51.157 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager] has finished in [15] ms
+28-Mar-2019 14:38:51.159 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:38:51.165 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:38:51.167 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 592 ms
+28-Mar-2019 14:40:19.589 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Mar-2019 14:40:19.589 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:40:19.599 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:40:19.606 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2019 14:40:19.623 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:40:19.625 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:40:19.626 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:40:19.627 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:46:37.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+28-Mar-2019 14:46:37.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.2
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:46:37.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:46:37.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/conf/logging.properties
+28-Mar-2019 14:46:37.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2019 14:46:37.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2019 14:46:37.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2019 14:46:37.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2019 14:46:37.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2019 14:46:37.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:46:37.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:46:37.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/temp
+28-Mar-2019 14:46:37.585 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/can/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Mar-2019 14:46:37.702 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:46:37.730 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:46:37.743 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:46:37.744 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1105)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+28-Mar-2019 14:46:37.745 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 532 ms
+28-Mar-2019 14:46:37.768 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2019 14:46:37.768 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+28-Mar-2019 14:46:37.789 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:46:38.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [321] ms
+28-Mar-2019 14:46:38.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs]
+28-Mar-2019 14:46:38.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs] has finished in [16] ms
+28-Mar-2019 14:46:38.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager]
+28-Mar-2019 14:46:38.161 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager] has finished in [32] ms
+28-Mar-2019 14:46:38.161 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples]
+28-Mar-2019 14:46:38.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples] has finished in [294] ms
+28-Mar-2019 14:46:38.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT]
+28-Mar-2019 14:46:38.469 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT] has finished in [13] ms
+28-Mar-2019 14:46:38.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager]
+28-Mar-2019 14:46:38.489 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager] has finished in [20] ms
+28-Mar-2019 14:46:38.492 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:46:38.503 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 757 ms
+28-Mar-2019 14:46:38.512 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+28-Mar-2019 14:46:38.513 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:46:38.524 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:46:38.524 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2019 14:46:38.547 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:46:38.553 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:46:38.554 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:46:38.554 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:49:36.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+28-Mar-2019 14:49:36.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.2
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:49:36.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:49:36.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/conf/logging.properties
+28-Mar-2019 14:49:36.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2019 14:49:36.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2019 14:49:36.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2019 14:49:36.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2019 14:49:36.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2019 14:49:36.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:49:36.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:49:36.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/temp
+28-Mar-2019 14:49:36.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/can/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Mar-2019 14:49:36.802 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:49:36.829 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:49:36.841 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:49:36.843 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1105)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+28-Mar-2019 14:49:36.844 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 568 ms
+28-Mar-2019 14:49:36.868 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2019 14:49:36.868 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+28-Mar-2019 14:49:36.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:49:37.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [298] ms
+28-Mar-2019 14:49:37.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs]
+28-Mar-2019 14:49:37.208 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs] has finished in [17] ms
+28-Mar-2019 14:49:37.208 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager]
+28-Mar-2019 14:49:37.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager] has finished in [30] ms
+28-Mar-2019 14:49:37.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples]
+28-Mar-2019 14:49:37.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples] has finished in [271] ms
+28-Mar-2019 14:49:37.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT]
+28-Mar-2019 14:49:37.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT] has finished in [11] ms
+28-Mar-2019 14:49:37.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager]
+28-Mar-2019 14:49:37.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager] has finished in [16] ms
+28-Mar-2019 14:49:37.539 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:49:37.546 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 702 ms
+28-Mar-2019 14:49:37.551 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+28-Mar-2019 14:49:37.552 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:49:37.564 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:49:37.564 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2019 14:49:37.581 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:49:37.586 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:49:37.587 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:49:37.587 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:50:33.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.39
+28-Mar-2019 14:50:33.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 14 2019 11:24:26 UTC
+28-Mar-2019 14:50:33.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.39.0
+28-Mar-2019 14:50:33.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Mar-2019 14:50:33.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.2
+28-Mar-2019 14:50:33.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Mar-2019 14:50:33.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Mar-2019 14:50:33.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Mar-2019 14:50:33.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2019 14:50:33.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:50:33.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:50:33.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/conf/logging.properties
+28-Mar-2019 14:50:33.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2019 14:50:33.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2019 14:50:33.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2019 14:50:33.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2019 14:50:33.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2019 14:50:33.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:50:33.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging
+28-Mar-2019 14:50:33.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/temp
+28-Mar-2019 14:50:33.535 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/can/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Mar-2019 14:50:33.648 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:50:33.676 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:50:33.687 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:50:33.688 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2019 14:50:33.689 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 457 ms
+28-Mar-2019 14:50:33.709 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2019 14:50:33.709 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.39
+28-Mar-2019 14:50:33.725 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:50:33.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [232] ms
+28-Mar-2019 14:50:33.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs]
+28-Mar-2019 14:50:33.973 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/docs] has finished in [14] ms
+28-Mar-2019 14:50:33.973 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager]
+28-Mar-2019 14:50:33.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/manager] has finished in [22] ms
+28-Mar-2019 14:50:33.996 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples]
+28-Mar-2019 14:50:34.202 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/examples] has finished in [206] ms
+28-Mar-2019 14:50:34.202 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT]
+28-Mar-2019 14:50:34.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/ROOT] has finished in [15] ms
+28-Mar-2019 14:50:34.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager]
+28-Mar-2019 14:50:34.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/host-manager] has finished in [15] ms
+28-Mar-2019 14:50:34.234 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+28-Mar-2019 14:50:34.240 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2019 14:50:34.242 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 553 ms
+28-Mar-2019 14:51:26.302 INFO [http-nio-8090-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 14:51:26.307 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:51:26.330 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [23] ms
+28-Mar-2019 14:54:57.600 INFO [http-nio-8090-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 14:54:57.605 INFO [http-nio-8090-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:54:57.630 INFO [http-nio-8090-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [24] ms
+28-Mar-2019 14:56:10.160 INFO [http-nio-8090-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 14:56:10.165 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 14:56:10.186 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [21] ms
+28-Mar-2019 23:10:06.929 INFO [http-nio-8090-exec-25] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 23:10:07.433 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 23:10:07.440 INFO [http-nio-8090-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 23:10:07.472 INFO [http-nio-8090-exec-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [32] ms
+28-Mar-2019 23:21:09.981 INFO [http-nio-8090-exec-31] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 23:21:09.990 INFO [http-nio-8090-exec-36] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 23:21:10.014 INFO [http-nio-8090-exec-36] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [24] ms
+28-Mar-2019 23:39:07.358 INFO [http-nio-8090-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 23:39:07.362 INFO [http-nio-8090-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 23:39:07.383 INFO [http-nio-8090-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [22] ms
+28-Mar-2019 23:44:31.419 INFO [http-nio-8090-exec-51] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 23:44:31.430 INFO [http-nio-8090-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 23:44:31.450 INFO [http-nio-8090-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [20] ms
+28-Mar-2019 23:45:06.871 INFO [http-nio-8090-exec-52] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+28-Mar-2019 23:45:06.876 INFO [http-nio-8090-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war]
+28-Mar-2019 23:45:06.898 INFO [http-nio-8090-exec-46] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/can/Downloads/my_project/jenkins-test/apache-tomcat-8.5.39-staging/webapps/webapp.war] has finished in [22] ms
