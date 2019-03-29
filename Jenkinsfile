@@ -1,17 +1,9 @@
 pipeline {
     agent any
-<<<<<<< HEAD
 
     tools {
         maven 'localMaven'
     }
-=======
-    
-    tools {
-        maven 'localMaven'
-    }
-    
->>>>>>> 06e1f3ba49fd451c205e60f8c31c0cbbeeb6fe6c
     stages {
         stage('Build') {
             steps {
@@ -25,11 +17,6 @@ pipeline {
                 }
             }
         }
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> 06e1f3ba49fd451c205e60f8c31c0cbbeeb6fe6c
         stage ('Deploy to Staging') {
             steps {
                 build job: 'deploy-to-staging'
